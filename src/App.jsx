@@ -6,6 +6,8 @@ import Technologies from './Components/Technologies'
 import Experience from './Components/Experience'
  import Projects from './Components/projects'
 import Contact from './Components/Contact'
+import AboutUs from './Components/AboutUs'
+import { Routes,Route } from 'react-router-dom'
 export default function App() {
   return (
     
@@ -15,12 +17,12 @@ export default function App() {
       </div>
     
       <div className='container mx-auto px-8'>
+
       <Navbar/>
-      <Hero/>
-      <About/>
-      <Technologies/>
-      <Experience/>
-      <Projects/>
+     <Routes>
+    <Route path="/" element={<Hero />} /> 
+    <Route path="/AboutUs" element={<AboutUs/>} /> 
+     </Routes>
       <Contact/>
       </div>
     </div>

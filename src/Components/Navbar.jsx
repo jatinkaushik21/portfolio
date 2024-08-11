@@ -1,8 +1,9 @@
 import logo from '../assets/projects/Logo-JK-circular.png';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa"; // Corrected import
+import { FaTwitter } from "react-icons/fa"; 
 import { FaInstagram } from "react-icons/fa";
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -11,9 +12,10 @@ const Navbar = () => {
        <img className='mx-2 w-12 text-white' src={logo} alt="logo" />
      </div>
      <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
+      <NavLink to={"./AboutUs"}>aboutus</NavLink>
        <FaLinkedin />
        <FaGithub />
-       <FaTwitter />  {/* Corrected usage */}
+       <FaTwitter />  
        <FaInstagram />
      </div>
    </nav>
