@@ -70,9 +70,3 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
 ];
-
-export const CONTACT = {
-  address: " Goverdhan,Mathura,IN 281502 ",
-  phoneNo: "+91 9520008334",
-  email: "jatinkaushik598@gmail.com",
-};
