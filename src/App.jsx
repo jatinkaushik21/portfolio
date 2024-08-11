@@ -7,6 +7,7 @@ import Experience from './Components/Experience'
  import Projects from './Components/projects'
 import Contact from './Components/Contact'
 import AboutUs from './Components/AboutUs'
+import Footer from './Components/Footer'
 import { Routes,Route } from 'react-router-dom'
 export default function App() {
   return (
@@ -20,11 +21,12 @@ export default function App() {
 
       <Navbar/>
      <Routes>
-    <Route path="/" element={<Hero />} /> 
+    <Route path="/Hero" element={<Hero />} /> 
     <Route path="/AboutUs" element={<AboutUs/>} /> 
      </Routes>
-      <Contact/>
+      {/* <Contact/> */}
       </div>
+      <Footer/>
     </div>
   )
 }
