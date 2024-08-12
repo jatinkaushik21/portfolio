@@ -102,26 +102,35 @@ const Footer = () => {
              transition={{ duration: 1 }}
             className="flex items-center justify-center pb-[20px] mt-[20px] space-x-6">
                 <a
-                    className="text-black text-xl hover:text-pink-500 transform hover:scale-150 
-                    transition-all duration-150 ease-in-out" href=""
-                >
-                    <FaGithub />
-                </a>
+    className="text-black text-xl hover:text-pink-500 transform hover:scale-150 
+    transition-all duration-150 ease-in-out"
+    href="https://github.com/jatinkaushik21"
+    target="_blank"
+    rel="noopener noreferrer"
+>
+    <FaGithub />
+</a>
                 <a
                     className="text-black text-xl hover:text-pink-500 transform hover:scale-150
-                    transition-all duration-150 ease-in-out" href=""
+                    transition-all duration-150 ease-in-out" href="https://www.linkedin.com/in/jatin-kaushik-b8638228b/"
+                    target="_blank"
+    rel="noopener noreferrer"
                 >
                     <FaLinkedinIn />
                 </a>
                 <a
                     className="text-black text-xl hover:text-pink-500 transform hover:scale-150
-                    transition-all duration-150 ease-in-out" href=""
+                    transition-all duration-150 ease-in-out" href="https://x.com/JatinKaushik21"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <FaXTwitter />
                 </a>
                 <a
                     className="text-black text-xl hover:text-pink-500 transform hover:scale-150
-                    transition-all duration-150 ease-in-out" href=""
+                    transition-all duration-150 ease-in-out" href="https://www.instagram.com/itz_jatinbro/?next=%2F"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     <FaInstagram />
                 </a>
