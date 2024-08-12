@@ -49,6 +49,8 @@ const Footer = () => {
                      transition={{ duration: 1 }}
                     className="text-[16px] mb-6">
                         Designing with purpose, crafting with passion.
+                        <div><NavLink to="/Team">Friends</NavLink></div>
+                        
                     </motion.p>
                 </div>
                 <div className="grid lg:grid-cols-3 gap-5 lg:pl-[150px] sm:grid-cols-1 mt-[40px] lg:w-2/3 w-full">

@@ -7,6 +7,7 @@ import Experience from './Components/Experience'
 import AboutUs from './Components/AboutUs'
 import Footer from './Components/Footer'
 import Navbar2 from './Components/Navbar2'
+import Team from './Components/OurTeam'
 import { Routes,Route } from 'react-router-dom'
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
     <Route path="/Projects" element={<Projects/>} />
     <Route path="/Projects" element={<Projects/>} />
     <Route path="/experience" element={<Experience/>} />
+    <Route path="/Team" element={<Team/>} />
      </Routes>
       </div>
       <Footer/>
