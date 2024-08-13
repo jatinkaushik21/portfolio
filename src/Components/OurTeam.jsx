@@ -1,80 +1,116 @@
 import React from "react";
 import Img1 from '../assets/projects/pexels-pixabay-220453.jpg';
-import AS from '../assets/projects/abhas.jpg';
+import AS from '../assets/projects/abhas2.jpg';
+import DS from '../assets/friends/divya.png';
+import KA from '../assets/friends/kanhaiya.jpg';
+import HS from '../assets/friends/harish.jpg';
+import AY from '../assets/friends/adi.jpg';
+import DB from '../assets/friends/diksha.jpg';
+import GS from '../assets/friends/Gaurav.jpg';
+import KS from '../assets/friends/Kushal.jpg';
+import { motion } from "framer-motion";
 
 const members = [
   {
     name: "Abha Sharma",
     title: "Web Developer",
-    description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
+    description: "Abha brings creativity and precision to every project. Her expertise in HTML, CSS, JavaScript, PHP, and SQL allows her to craft engaging websites that deliver exceptional user experiences. Abha is a collaborative team player who thrives in dynamic environments and is always eager to learn and adopt the latest trends in web development.",
     imgSrc: AS,
-    tags: ["#photography", "#makeup", "#artist"],
-    phone: ["+123 456 77 88"],
+    phone: ["+91 8265820140"],
     email: ["AbhaSharma@gmail.com"],
   },
   {
-    name: "MARIA CULHANE",
-    title: "MAKEUP ARTIST",
+    name: "Divya Sharma",
+    title: "Web Developer",
     description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
-    imgSrc: Img1,
-    tags: ["#photography", "#makeup", "#artist"],
+    imgSrc: DS,
     phone: ["+123 456 77 88"],
     email: ["info@divueens.com"],
   },
   {
-    name: "MARIA CULHANE",
-    title: "MAKEUP ARTIST",
-    description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
-    imgSrc: Img1,
-    tags: ["#photography", "#makeup", "#artist"],
-    phone: ["+123 456 77 88"],
-    email: ["info@divueens.com"],
-  },
-  {
-    name: "MARIA CULHANE",
-    title: "MAKEUP ARTIST",
-    description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
-    imgSrc: Img1,
-    tags: ["#photography", "#makeup", "#artist"],
-    phone: ["+123 456 77 88"],
-    email: ["info@divueens.com"],
-  },
-  {
-    name: "MARIA CULHANE",
-    title: "MAKEUP ARTIST",
-    description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
-    imgSrc: Img1,
-    tags: ["#photography", "#makeup", "#artist"],
-    phone: ["+123 456 77 88"],
-    email: ["info@divueens.com"],
-  },
-  {
-    name: "MARIA CULHANE",
-    title: "MAKEUP ARTIST",
-    description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
-    imgSrc: Img1,
-    tags: ["#photography", "#makeup", "#artist"],
-    phone: ["+123 456 77 88"],
-    email: ["info@divueens.com"],
-  },
+        name: "Gaurav Sharma",
+        title: "Web Developer",
+        description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
+        imgSrc: GS,
+        tags: ["#photography", "#makeup", "#artist"],
+        phone: ["+123 456 77 88"],
+        email: ["info@divueens.com"],
+      },
+      {
+        name: "Kushal Sharma",
+        title: "Web Developer",
+        description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
+        imgSrc: KS,
+        tags: ["#photography", "#makeup", "#artist"],
+        phone: ["+123 456 77 88"],
+        email: ["info@divueens.com"],
+      },
+      {
+        name: "Kanhaiya Agrawal",
+        title: "Web Developer",
+        description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
+        imgSrc: KA,
+        tags: ["#photography", "#makeup", "#artist"],
+        phone: ["+123 456 77 88"],
+        email: ["info@divueens.com"],
+      },
+      {
+        name: "Harish Singh",
+        title: "Web Developer",
+        description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
+        imgSrc: HS,
+        tags: ["#photography", "#makeup", "#artist"],
+        phone: ["+123 456 77 88"],
+        email: ["info@divueens.com"],
+      },
+      {
+        name: "Aditya Yadav",
+        title: "Web Developer",
+        description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
+        imgSrc: AY,
+        tags: ["#photography", "#makeup", "#artist"],
+        phone: ["+123 456 77 88"],
+        email: ["info@divueens.com"],
+      },
+      {
+        name: "Diksha Bansal",
+        title: "Web Developer",
+        description: "Fugiat ut fames vel sed luctus dignissim arcu eget. Peleintesque enim id tellus consectetur.",
+        imgSrc: DB,
+        tags: ["#photography", "#makeup", "#artist"],
+        phone: ["+123 456 77 88"],
+        email: ["info@divueens.com"],
+      },
 ];
 
+const animations = [
+  { whileInView: { opacity: 1, x: 0 }, initial: { opacity: 0, x: -100 }, transition: { duration: 1 } },
+  { whileInView: { opacity: 1, x: 0 }, initial: { opacity: 0, x: 100 }, transition: { duration: 1 } },
+  { whileInView: { opacity: 1, x: 0 }, initial: { opacity: 0, x: -100 }, transition: { duration: 1 } },
+  { whileInView: { opacity: 1, x: 0 }, initial: { opacity: 0, x: 100 }, transition: { duration: 1 } },
+  { whileInView: { opacity: 1, x: 0 }, initial: { opacity: 0, x: -100 }, transition: { duration: 1 } },
+  { whileInView: { opacity: 1, x: 0 }, initial: { opacity: 0, x: 100 }, transition: { duration: 1 } },
+];
 const Team = () => {
   return (
     <div className="p-0 m-0 overflow-x-hidden" style={{ fontFamily: "'Montserrat', sans-serif" }}>
       <div className="relative w-full min-h-screen">
         <div className="flex items-center justify-center bg-[#F8E2EA] bg-opacity-[0.15] top-11 rounded-full left-0 w-full h-full">
-          <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-thin bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
+          <motion.h1
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0,y: 100 }}
+          transition={{ duration: 1 }} className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-thin bg-gradient-to-r from-pink-500 to-purple-500 text-transparent bg-clip-text">
             My Friends
-          </h1>
+          </motion.h1>
         </div>
         <div className="text-center p-8 sm:p-16 text-black mx-4 sm:mx-12 my-4 sm:my-8 bg-[#F8E2EA] bg-opacity-[0.25] rounded-[50px]">
           <div className="grid grid-col-1 gap-20 lg:grid-cols-2 lg:grid-rows-3 lg:gap-x-10 lg:gap-y-12 place-content-center">
             {members.map((member, index) => (
-              <div
+              <motion.div
                 key={index}
+                {...animations[index % animations.length]} // Apply different animation based on index
                 className={`w-[250px] lg:w-[350px] mx-auto h-[380px] lg:h-[480px] rounded-[1.4rem] shadow-2xl overflow-hidden relative transition-transform transform hover:scale-105 ${
-                  index === 0 ? "shadow-3xl  hover:shadow-pink-600" : ""
+                  index === 0 ? "shadow-3xl shadow-pink-600" : ""
                 }`}
                 style={{ backgroundImage: `url(${member.imgSrc})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}
               >
@@ -103,7 +139,7 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             ))}
           </div>
         </div>

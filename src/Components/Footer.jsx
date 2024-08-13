@@ -49,7 +49,6 @@ const Footer = () => {
                      transition={{ duration: 1 }}
                     className="text-[16px] mb-6">
                         Designing with purpose, crafting with passion.
-                        <div><NavLink to="/Team">Friends</NavLink></div>
                         
                     </motion.p>
                 </div>
@@ -92,6 +91,7 @@ const Footer = () => {
                         <motion.p whileInView={{ opacity: 1, x: 0 }}
              initial={{ opacity: 0,x: 100 }}
              transition={{ duration: 1 }} className="text-[14px] my-2">Phone: +91 9520008334 </motion.p>
+             <div><NavLink className="hover:text-blue-500 hover:underline" to="/Team"># Friends</NavLink></div>
                     </div>
                 </div>
             </div>
