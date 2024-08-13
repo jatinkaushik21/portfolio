@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
             <div className="flex flex-col lg:flex-row items-start justify-between p-10">
                 <div 
-                className="flex flex-col items-start mb-10 lg:mb-0 lg:w-1/3">
+                className="flex flex-col items-start lg:mb-0 lg:w-1/3">
                     <NavLink onClick={scrollToTop}> 
                         <motion.img whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
@@ -47,7 +47,7 @@ const Footer = () => {
                      whileInView={{ opacity: 1, x: 0 }}
                      initial={{ opacity: 0,x: -100 }}
                      transition={{ duration: 1 }}
-                    className="text-[16px] mb-6">
+                    className="text-[16px]">
                         Designing with purpose, crafting with passion.
                         
                     </motion.p>
@@ -91,13 +91,13 @@ const Footer = () => {
                         <motion.p whileInView={{ opacity: 1, x: 0 }}
              initial={{ opacity: 0,x: 100 }}
              transition={{ duration: 1 }} className="text-[14px] my-2">Phone: +91 9520008334 </motion.p>
-             <div><NavLink className="hover:text-blue-500 hover:underline" to="/Team"># Friends</NavLink></div>
+             <div><NavLink className="hover:text-blue-500 hover:underline" onClick={scrollToTop} to="/Team"># Friends</NavLink></div>
                     </div>
                 </div>
             </div>
             <motion.h6  whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0,x: -100 }}
-                    transition={{ duration: 1 }} className="text-center text-black text-[14px] py-4">© Jatin Kaushik 2024. All rights reserved. {Year}</motion.h6>
+                    transition={{ duration: 1 }} className="text-center text-black text-[14px] ">© Jatin Kaushik 2024. All rights reserved. {Year}</motion.h6>
             <motion.div
              whileInView={{ opacity: 1, x: 0 }}
              initial={{ opacity: 0,x: 100 }}

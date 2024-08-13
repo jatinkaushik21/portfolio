@@ -22,7 +22,7 @@ const Navbar2 = () => {
           <img className="sm:w-16 w-[50px] mt-[20px]   cursor-pointer" src={logo} alt="Logo" />
         </div>
         <div
-          className={`nav-links duration-500 md:static absolute bg-black md:min-h-fit min-h-[42vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 ${isMenuOpen ? 'top-[9%]' : ''}`}
+          className={`nav-links z-[1] duration-500 md:static absolute bg-black md:min-h-fit min-h-[42vh] left-0 top-[-100%] md:w-auto w-full flex items-center px-5 ${isMenuOpen ? 'top-[9%]' : ''}`}
         >
           <ul className="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
             <li>
