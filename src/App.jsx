@@ -12,7 +12,7 @@ import { Routes,Route } from 'react-router-dom'
 export default function App() {
   return (
     
-    <div className='overflow-x-hidden text-neutral-300 antialiased slec selection:bg-cyan-300 selection:cyan-900'>
+    <div className='overflow-x-hidden text-neutral-300 antialiased slec selection:bg-lime-300 selection:text-black'>
       <div className='fixed  top-0 w-full -z-10 h-full '>
       <div className="absolute top-0 z-[-2] h-screen w-screen bg-gradient-to-br from-[#000] via-[#000]  to-[#fd0075] "></div>
       </div>

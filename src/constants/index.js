@@ -11,32 +11,44 @@ My approach to web development focuses on delivering high-quality solutions and 
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "Aug - Present",
+    role: "Class Representative ",
+    company: "GLA university",
+    description: `In my second term as Class Representative at [Your School/College Name], I continued to serve as the key liaison between students and faculty, building on my previous experience to further enhance class communication and organization.
+
+    During this term, I successfully managed various responsibilities, including organizing class meetings, coordinating academic and extracurricular activities, and addressing student concerns. My role involved facilitating effective communication between peers and faculty, ensuring that issues were promptly addressed and that all students were informed about important updates and events.This term reinforced my leadership and organizational skills, and allowed me to further develop my ability to manage responsibilities and work collaboratively with diverse groups.`,
+    technologies: ["Decision-Making", "Confidence Building", "Networking","Conflict Resolution"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "June - July 2024",
+    role: "FullStack Developer",
+    company: "Baoiam Innovation.Pvt.Ltd",
+    description: `During my 2-month internship at Baoiam Innovation.Pvt.Ltd, I collaborated with a team to develop Divueens, a cosmetic e-commerce website. My role involved developing and refining various web pages, as well as addressing bugs identified by the software testing team to enhance the site's overall functionality.
+
+    I utilized React and Tailwind CSS to build responsive and engaging interfaces, integrated Swiper for image carousels, and used Framer Motion for animations. Additionally, I worked with various libraries, including React-DOM, to optimize performance.
+    
+    I actively participated in daily meetings with team leads (TLs) and TL-mentors to provide status updates and collaborated using Git and GitHub for version control and team coordination. I also attended weekly meetings with the CEO, founder, and co-founder to discuss project progress and goals. During these meetings, I performed live coding sessions to demonstrate ongoing work and address feedback in real-time.
+    
+    This experience allowed me to gain valuable skills in modern web development, team collaboration, and project management, while working closely with senior leadership and utilizing industry-standard tools and practices.`,
+    technologies: ["React", "Tailwind", "Github", "Git","Html"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
+    year: "Jan - May-2024 ",
+    role: "Class Representative ",
+    company: "GLA University",
+    description: `As Class Representative, I effectively managed communication between faculty and students, ensuring that the needs and concerns of my peers were addressed promptly. I facilitated the distribution of study materials and other resources, ensuring all students had the necessary tools for success. My responsibilities also included organizing and leading class meetings, representing the class in academic and administrative discussions, and coordinating events. This role enhanced my leadership skills, taught me effective faculty management, and emphasized the importance of collaboration and time management.`,
+    technologies: ["leadership", "management", "collaboration", "communication"],
   },
   {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "17-feb-2023",
+    role: "Hackathon Participant [Hackspace2.0]",
+    company: "GLA University",
+    description: `At Hackspace2.0, I took on the role of Frontend Developer in a team project to create a Student Management System. This system was developed to efficiently manage student data, including enrollment, and communication between students and faculty,student portal,faculty portal.
+
+    My contributions focused on designing and implementing the user interface using HTML and CSS, ensuring a responsive and user-friendly experience. Additionally, I collaborated with my team on the back-end, which was built using PHP and SQL, to create a seamless connection between the front-end and the database.
+    
+    This experience strengthened my frontend development skills and provided valuable insights into working collaboratively on full-stack projects. It also reinforced my ability to deliver effective solutions under tight deadlines, a key takeaway from this challenging yet rewarding hackathon.`,
+    technologies: ["HTML", "CSS", "PHP", "SQL"],
   },
 ];
 
