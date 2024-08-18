@@ -83,9 +83,9 @@ const Navbar2 = () => {
           </ul>
         </div>
         <div className="flex items-center gap-6">
-          <button type="button" className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-2 focus:ring-cyan-200 focus:outline-none rounded-lg text-sm px-6 py-[5px] text-center">
+          <NavLink to="/ContactUs"><button type="button" onClick={handleLinkClick} className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-2 focus:ring-cyan-200 focus:outline-none rounded-lg text-sm px-6 py-[5px] text-center">
             Contact
-          </button>
+          </button></NavLink>
           <button
             onClick={handleToggleMenu}
             className="text-3xl cursor-pointer md:hidden"
