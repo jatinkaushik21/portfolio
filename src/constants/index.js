@@ -1,5 +1,5 @@
 import project1 from "../assets/projects/divueens.png";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/portimg.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     year: "Aug - Present",
     role: "Class Representative ",
     company: "GLA university",
-    description: `In my second term as Class Representative at [Your School/College Name], I continued to serve as the key liaison between students and faculty, building on my previous experience to further enhance class communication and organization.
+    description: `In my second term as Class Representative at Gla university, I continued to serve as the key liaison between students and faculty, building on my previous experience to further enhance class communication and organization.
 
     During this term, I successfully managed various responsibilities, including organizing class meetings, coordinating academic and extracurricular activities, and addressing student concerns. My role involved facilitating effective communication between peers and faculty, ensuring that issues were promptly addressed and that all students were informed about important updates and events.This term reinforced my leadership and organizational skills, and allowed me to further develop my ability to manage responsibilities and work collaboratively with diverse groups.`,
     technologies: ["Decision-Making", "Confidence Building", "Networking","Conflict Resolution"],
@@ -61,24 +61,24 @@ export const PROJECTS = [
     technologies: ["HTML", "Github", "React", "Tailwind",],
   },
   {
-    title: "Task Management App",
+    title: "Portfolio Website",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "My personal portfolio website to show my skills,certifications,web and iot projects,intrests,my privious experiences,and contact information.",
+    technologies: ["React", "Tailwind", "Framer motion", "CSS"],
   },
   {
-    title: "Portfolio Website",
+    title: "Weather app",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "soon.",
+    technologies: ["---", "---", "---", "---"],
   },
   {
-    title: "Blogging Platform",
+    title: "todo list",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "soon.",
+    technologies: ["---", "---", "---", "---", "---"],
   },
 ];

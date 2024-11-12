@@ -5,7 +5,7 @@ import DS from '../assets/friends/divya.png';
 import KA from '../assets/friends/kanhaiya.jpg';
 import HS from '../assets/friends/harish.jpg';
 import AY from '../assets/friends/adi.jpg';
-import DB from '../assets/friends/diksha.jpg';
+import DB from '../assets/friends/diksha2.jpg';
 import GS from '../assets/friends/Gaurav.jpg';
 import KS from '../assets/friends/Kushal.jpg';
 
@@ -15,7 +15,7 @@ const members = [
     title: "Web Developer",
     description: "Abha brings creativity and precision to every project. Her expertise in HTML, CSS, JavaScript, PHP, and SQL allows her to craft engaging websites that deliver exceptional user experiences.",
     imgSrc: AS,
-    phone: ["+91 8265820140"],
+    phone: ["+91 1234567890"],
     email: ["AbhaSharma@gmail.com"],
   },
   {
